@@ -70,8 +70,8 @@ public class HemophiliacsSiteSteps extends BasicTest {
     }
 
     @Then("message of success sending appears")
-    public void is_success_message_appears(){
-        Assert.assertTrue(volunteerPage.isSuccessMessageAppears());
+    public void does_success_message_appear(){
+        Assert.assertTrue(volunteerPage.doesSuccessMessageAppear());
     }
 
     //Scenario 3

@@ -48,7 +48,7 @@ public class VolunteerPage extends Page {
         sendButton.click();
     }
 
-    public boolean isSuccessMessageAppears(){
+    public boolean doesSuccessMessageAppear(){
         return successMessage.isEnabled();
     }
 }
