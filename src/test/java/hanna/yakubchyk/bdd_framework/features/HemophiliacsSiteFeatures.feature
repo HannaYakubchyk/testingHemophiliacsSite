@@ -14,7 +14,7 @@ Feature: Testing of https://hanna.yakubchyk2.20.hosty.by/wordpress/
       And clicks on Send button
       Then message of success sending appears
 
-      Scenario: 03 Check that validation messages for fields Body Weight and Desired Factor Rise appears
+      Scenario: 03 Check that calculated value appears
         Given Calculator page is loaded
         When user picks a medicine from a dropdown list
         And enters numbers into Body Weight Field and Desired Factor Rise Field
